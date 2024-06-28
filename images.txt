@@ -7,3 +7,6 @@ xhofe/alist:latest
 #---------------------------------------------------------------------
 #unblock-netease-music-enhanced
 --platform=linux/arm64 pan93412/unblock-netease-music-enhanced:latest
+
+#cloudflare隧道
+--platform=linux/arm64 cloudflare/cloudflared:latest
