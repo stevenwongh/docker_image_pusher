@@ -10,3 +10,6 @@ xhofe/alist:latest
 
 #cloudflare隧道
 --platform=linux/arm64 cloudflare/cloudflared:latest
+
+#filebrowser
+--platform=linux/arm64 filebrowser/filebrowser:latest
