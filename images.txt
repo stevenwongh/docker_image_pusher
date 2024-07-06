@@ -13,3 +13,14 @@ xhofe/alist:latest
 
 #filebrowser
 --platform=linux/arm64 filebrowser/filebrowser:latest
+
+#青龙
+--platform=linux/arm64 whyour/qinglong:latest
+
+#ddns-go
+--platform=linux/arm64 jeessy/ddns-go:latest
+
+#upsnap网络唤醒
+--platform=linux/arm64 ghcr.io/seriousm4x/upsnap:latest
+
+
