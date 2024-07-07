@@ -25,3 +25,6 @@ xhofe/alist:latest
 
 #个人导航页
 --platform=linux/arm64 hslr/sun-panel:1.4.0
+
+#smartDNS
+--platform=linux/arm64 pymumu/smartdns:latest
