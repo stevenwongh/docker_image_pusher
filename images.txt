@@ -28,3 +28,4 @@ xhofe/alist:latest
 
 #smartDNS
 --platform=linux/arm64 pymumu/smartdns:latest
+
