@@ -23,4 +23,5 @@ xhofe/alist:latest
 #upsnap网络唤醒
 --platform=linux/arm64 ghcr.io/seriousm4x/upsnap:latest
 
-
+#个人导航页
+--platform=linux/arm64 hslr/sun-panel:1.4.0
