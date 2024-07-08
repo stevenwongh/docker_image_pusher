@@ -28,3 +28,6 @@ xhofe/alist:latest
 
 #smartDNS
 --platform=linux/arm64 pymumu/smartdns:latest
+
+#sing-box web ui
+--platform=linux/arm64 docker pull alireza7/s-ui:1.0.0
