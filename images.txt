@@ -33,4 +33,4 @@ xhofe/alist:latest
 --platform=linux/arm64 alireza7/s-ui:1.0.0
 
 #网心云
---platform=linux/arm64 images-cluster.xycloud.com/wxedge/wxedge:2.4.3
+--platform=linux/arm64 images-cluster.xycloud.com/wxedge/wxedge:latest
