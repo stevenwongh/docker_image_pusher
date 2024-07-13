@@ -35,8 +35,11 @@ xhofe/alist:latest
 #网心云
 --platform=linux/arm64 images-cluster.xycloud.com/wxedge/wxedge:latest
 
-#nextcloud
+#nextcloud:fpm
 --platform=linux/arm64 nextcloud:stable-fpm-alpine
+
+#nextcloud:apache (latest)
+--platform=linux/arm64 nextcloud:29.0.3-apache
 
 #postgres
 --platform=linux/arm64 postgres:15.7-bookworm
