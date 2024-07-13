@@ -34,3 +34,6 @@ xhofe/alist:latest
 
 #网心云
 --platform=linux/arm64 images-cluster.xycloud.com/wxedge/wxedge:latest
+
+#nextcloud
+--platform=linux/arm64 nextcloud:stable-fpm-alpine
