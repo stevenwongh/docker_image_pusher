@@ -37,3 +37,6 @@ xhofe/alist:latest
 
 #nextcloud
 --platform=linux/arm64 nextcloud:stable-fpm-alpine
+
+#postgres
+--platform=linux/arm64 postgres:15.7-bookworm
