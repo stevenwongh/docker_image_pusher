@@ -59,7 +59,7 @@ xhofe/alist:latest
 #V2Ray 路由规则文件加强版，代替 V2Ray 官方 geoip.dat 和 geosite.dat
 --platform=linux/arm64 zydou/v2ray:v5.15.1
 
-#A web GUI client of Project V which supports V2Ray, SS, SSR, Trojan and PingTunnel protocols 🚀
+#A web GUI client of Project V which supports V2Ray, SS, SSR, Trojan and PingTunnel protocols
 --platform=linux/arm64 mzz2017/v2raya:main
 
 #V2Ray Docker Image by Teddysun
@@ -68,7 +68,7 @@ xhofe/alist:latest
 #私有云
 --platform=linux/arm64 jmal/jmalcloud:2.9.2
 
-#🌩支持多家云存储的云盘系统 (Self-hosted file management and sharing system, supports multiple storage providers)
+#支持多家云存储的云盘系统 (Self-hosted file management and sharing system, supports multiple storage providers)
 --platform=linux/arm64 cloudreve/cloudreve:3.8.3
 
 #CloudDrive 是一款功能强大的多云驱动器管理工具，可在本地安装云驱动器。
@@ -88,4 +88,3 @@ xhofe/alist:latest
 
 #内侧邀请码（3H9F7Y6D/迅雷牛通），内侧码申请快速通道：https://t.cn/A6fhraWZ⁠
 --platform=linux/arm64 cnk3x/xunlei:3.20.1
-
