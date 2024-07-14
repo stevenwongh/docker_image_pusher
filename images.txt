@@ -45,7 +45,7 @@ xhofe/alist:latest
 --platform=linux/arm64 postgres:15.7-bookworm
 
 #openwrt官方
---platform=linux/arm64 openwrt/rootfs:aarch64_generic-main
+--platform=linux/aarch64_generic openwrt/rootfs:aarch64_generic-openwrt-23.05
 
 #ophub pull@20140714
 --platform=linux/arm64 ophub/openwrt-aarch64:latest
