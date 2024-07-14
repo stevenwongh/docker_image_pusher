@@ -43,3 +43,48 @@ xhofe/alist:latest
 
 #postgres
 --platform=linux/arm64 postgres:15.7-bookworm
+
+#openwrt官方
+--platform=linux/arm64 openwrt/rootfs:aarch64_generic-main
+
+#ophub pull@20140714
+--platform=linux/arm64 ophub/openwrt-aarch64:latest
+
+#openwrt ARM64版，基于Lean最新源码编译，集成ssrplus+ 、passwall、openclash，N1，贝壳云等适用,每3天自动更新。
+--platform=linux/arm64 piaoyizy/openwrt-aarch64:latest
+
+#OpenWrt-23.05 (PassWall & OpenClash)，基于ImmortalWrt OpenWrt-23.05(每日更新)。
+--platform=linux/arm64 zzsrv/openwrt:aarch64
+
+#V2Ray 路由规则文件加强版，代替 V2Ray 官方 geoip.dat 和 geosite.dat
+--platform=linux/arm64 zydou/v2ray:v5.15.1
+
+#A web GUI client of Project V which supports V2Ray, SS, SSR, Trojan and PingTunnel protocols 🚀
+--platform=linux/arm64 mzz2017/v2raya:main
+
+#V2Ray Docker Image by Teddysun
+--platform=linux/arm64 teddysun/v2ray:5.16.1
+
+#私有云
+--platform=linux/arm64 jmal/jmalcloud:2.9.2
+
+#🌩支持多家云存储的云盘系统 (Self-hosted file management and sharing system, supports multiple storage providers)
+--platform=linux/arm64 cloudreve/cloudreve:3.8.3
+
+#CloudDrive 是一款功能强大的多云驱动器管理工具，可在本地安装云驱动器。
+--platform=linux/arm64 cloudnas/clouddrive2:0.7.7
+
+#Alist
+--platform=linux/arm64 xhofe/alist:v3.35.0
+
+#Alist main pull@20240714
+--platform=linux/arm64 xhofe/alist:main
+
+#Alist with aria2
+--platform=linux/arm64 xhofe/alist-aria2:v3.35.0
+
+#小雅 pull@20240714
+--platform=linux/arm64 xiaoyaliu/alist:latest
+
+#内侧邀请码（3H9F7Y6D/迅雷牛通），内侧码申请快速通道：https://t.cn/A6fhraWZ⁠
+--platform=linux/arm64 cnk3x/xunlei:3.20.1
