@@ -50,8 +50,8 @@ xhofe/alist:latest
 #ophub pull@20140714
 --platform=linux/arm64 ophub/openwrt-aarch64:latest
 
-#openwrt ARM64版，基于Lean最新源码编译，集成ssrplus+ 、passwall、openclash，N1，贝壳云等适用,每3天自动更新。
---platform=linux/arm64 piaoyizy/openwrt-aarch64:latest
+#openwrt ARM64版，基于Lean最新源码编译，集成ssrplus+ 、passwall、openclash，N1，贝壳云等适用,每3天自动更新。（只有amd64，写错？？）
+--platform=linux/amd64 piaoyizy/openwrt-aarch64:latest
 
 #OpenWrt-23.05 (PassWall & OpenClash)，基于ImmortalWrt OpenWrt-23.05(每日更新)。
 --platform=linux/arm64 zzsrv/openwrt:aarch64
