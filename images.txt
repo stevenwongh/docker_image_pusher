@@ -91,6 +91,9 @@
 #
 ##jellyfin
 #--platform=linux/arm64/v8 jellyfin/jellyfin:2024070805-arm64
+#
+##qBittorrent:4.6.5,qBittorrent-EE:4.6.5.10,集成Trackers更新
+#--platform=linux/arm64 johngong/qbittorrent:4.6.5-4.6.5.10
 
-#jellyfin
---platform=linux/arm64 johngong/qbittorrent:4.6.5-4.6.5.10
+#transmission-docker
+--platform=linux/arm64 linuxserver/transmission:4.0.6
