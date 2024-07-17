@@ -89,5 +89,8 @@
 ##内侧邀请码（3H9F7Y6D/迅雷牛通），内侧码申请快速通道：https://t.cn/A6fhraWZ⁠
 #--platform=linux/arm64 cnk3x/xunlei:3.20.1
 #
+##jellyfin
+#--platform=linux/arm64/v8 jellyfin/jellyfin:2024070805-arm64
+
 #jellyfin
---platform=linux/arm64/v8 jellyfin/jellyfin:2024070805-arm64
+--platform=linux/arm64 johngong/qbittorrent:4.6.5-4.6.5.10
