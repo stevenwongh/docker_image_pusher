@@ -98,11 +98,21 @@
 ##transmission-docker
 #--platform=linux/arm64 linuxserver/transmission:4.0.6
 #
-#motrix-web pull@20240718
---platform=linux/arm64 jarvay/motrix-web:latest
+##motrix-web pull@20240718
+#--platform=linux/arm64 jarvay/motrix-web:latest
 #
-#aria2-pro pull@20240718
---platform=linux/arm64 p3terx/aria2-pro:test
+##aria2-pro pull@20240718
+#--platform=linux/arm64 p3terx/aria2-pro:test
 #
-#ariang pull@20240718
---platform=linux/arm64 p3terx/ariang:test
+##ariang pull@20240718
+#--platform=linux/arm64 p3terx/ariang:test
+#
+#qbittorrentee qBittorrent增强版，防吸血
+--platform=linux/arm64 superng6/qbittorrentee:4.6.5.10
+
+#Aria2:1.37.0,AriaNg:1.3.7,集成Trackers更新。
+--platform=linux/arm64 johngong/aria2:1.37.0-1.3.7
+
+#可屏蔽迅雷！Docker Aria2-with-AriaNG的最佳实践，超多刚需选项一键启用
+--platform=linux/arm64 superng6/aria2:a2b-stable-23-12-06
+--platform=linux/arm64 superng6/aria2:webui-stable-23-12-06
