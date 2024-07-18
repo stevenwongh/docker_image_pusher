@@ -94,6 +94,15 @@
 #
 ##qBittorrent:4.6.5,qBittorrent-EE:4.6.5.10,集成Trackers更新
 #--platform=linux/arm64 johngong/qbittorrent:4.6.5-4.6.5.10
-
-#transmission-docker
---platform=linux/arm64 linuxserver/transmission:4.0.6
+#
+##transmission-docker
+#--platform=linux/arm64 linuxserver/transmission:4.0.6
+#
+#motrix-web pull@20240718
+--platform=linux/arm64 jarvay/motrix-web:latest
+#
+#aria2-pro pull@20240718
+--platform=linux/arm64 p3terx/aria2-pro:test
+#
+#ariang pull@20240718
+--platform=linux/arm64 p3terx/ariang:test
