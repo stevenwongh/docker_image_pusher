@@ -116,6 +116,18 @@
 ##可屏蔽迅雷！Docker Aria2-with-AriaNG的最佳实践，超多刚需选项一键启用
 #--platform=linux/arm64 superng6/aria2:a2b-stable-23-12-06
 #--platform=linux/arm64 superng6/aria2:webui-stable-23-12-06
+#
+##小雅(非hostmode版本，bridge模式使用) pull@20240719
+#--platform=linux/arm64 xiaoyaliu/alist:latest
 
-#小雅(非hostmode版本，bridge模式使用) pull@20240719
---platform=linux/arm64 xiaoyaliu/alist:latest
+#dockge 图形管理工具 pull@20240719
+--platform=linux/arm64 louislam/dockge:1.4.2
+
+#docker-autocompose generates a docker-compose yaml definition from a docker container pull@20240721
+--platform=linux/arm64 jauderho/docker-autocompose:latest
+
+#Typecho个人网站博客构建 pull@20240721
+--platform=linux/arm64 joyqi/typecho:nightly-php8.2-fpm-alpine
+
+#EasyImage图床 pull@20240721
+--platform=linux/arm64 ddsderek/easyimage:v2.8.5
