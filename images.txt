@@ -135,8 +135,8 @@
 ##photoview相片管理 pull@20240721
 #--platform=linux/arm64 viktorstrate/photoview:sha-0345bc1
 
-#私有云文件管理 pull@20240721
---platform=linux/arm64 ghcr.io/spacedriveapp/spacedrive/server:latest
+##私有云文件管理 pull@20240721
+#--platform=linux/arm64 ghcr.io/spacedriveapp/spacedrive/server:latest
 
 #照片管理 pull@20240721
 --platform=linux/arm64 lomorage/arm64-lomorage:latest
