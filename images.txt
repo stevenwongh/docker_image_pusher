@@ -132,8 +132,8 @@
 ##EasyImage图床 pull@20240721
 #--platform=linux/arm64 ddsderek/easyimage:v2.8.5
 #
-#photoview相片管理 pull@20240721
---platform=linux/arm64 viktorstrate/photoview:sha-0345bc1
+##photoview相片管理 pull@20240721
+#--platform=linux/arm64 viktorstrate/photoview:sha-0345bc1
 
 #私有云文件管理 pull@20240721
 --platform=linux/arm64 ghcr.io/spacedriveapp/spacedrive/server:latest
