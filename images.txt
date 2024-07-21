@@ -119,15 +119,24 @@
 #
 ##小雅(非hostmode版本，bridge模式使用) pull@20240719
 #--platform=linux/arm64 xiaoyaliu/alist:latest
+#
+##dockge 图形管理工具 pull@20240719
+#--platform=linux/arm64 louislam/dockge:1.4.2
+#
+##docker-autocompose generates a docker-compose yaml definition from a docker container pull@20240721
+#--platform=linux/arm64 jauderho/docker-autocompose:latest
+#
+##Typecho个人网站博客构建 pull@20240721
+#--platform=linux/arm64 joyqi/typecho:nightly-php8.2-fpm-alpine
+#
+##EasyImage图床 pull@20240721
+#--platform=linux/arm64 ddsderek/easyimage:v2.8.5
+#
+#photoview相片管理 pull@20240721
+--platform=linux/arm64 viktorstrate/photoview:sha-0345bc1
 
-#dockge 图形管理工具 pull@20240719
---platform=linux/arm64 louislam/dockge:1.4.2
+#私有云文件管理 pull@20240721
+--platform=linux/arm64 ghcr.io/spacedriveapp/spacedrive/server:latest
 
-#docker-autocompose generates a docker-compose yaml definition from a docker container pull@20240721
---platform=linux/arm64 jauderho/docker-autocompose:latest
-
-#Typecho个人网站博客构建 pull@20240721
---platform=linux/arm64 joyqi/typecho:nightly-php8.2-fpm-alpine
-
-#EasyImage图床 pull@20240721
---platform=linux/arm64 ddsderek/easyimage:v2.8.5
+#照片管理 pull@20240721
+--platform=linux/arm64 lomorage/arm64-lomorage:latest
