@@ -140,3 +140,9 @@
 
 #照片管理 pull@20240721
 --platform=linux/arm64 lomorage/arm64-lomorage:latest
+
+#笔记memos pull@20240722
+--platform=linux/arm64 neosmemo/memos:stable
+
+#docker图形管理dweebui pull@20240722
+--platform=linux/arm64 lllllllillllllillll/dweebui:latest
