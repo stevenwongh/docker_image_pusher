@@ -152,3 +152,6 @@
 #
 ##云笔记etherpad pull@20240723
 #--platform=linux/arm64 etherpad/etherpad:2.1.1
+
+#portainer容器图形化管理 pull@20240723
+--platform=linux/arm64 portainer/portainer-ce:linux-arm64-2.20.3
