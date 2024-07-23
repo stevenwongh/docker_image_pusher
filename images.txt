@@ -134,15 +134,18 @@
 #
 ##photoview相片管理 pull@20240721
 #--platform=linux/arm64 viktorstrate/photoview:sha-0345bc1
-
+#
 ##私有云文件管理 pull@20240721
 #--platform=linux/arm64 ghcr.io/spacedriveapp/spacedrive/server:latest
-
-#照片管理 pull@20240721
---platform=linux/arm64 lomorage/arm64-lomorage:latest
-
-#笔记memos pull@20240722
---platform=linux/arm64 neosmemo/memos:stable
-
-#docker图形管理dweebui pull@20240722
---platform=linux/arm64 lllllllillllllillll/dweebui:latest
+#
+##照片管理 pull@20240721
+#--platform=linux/arm64 lomorage/arm64-lomorage:latest
+#
+##笔记memos pull@20240722
+#--platform=linux/arm64 neosmemo/memos:stable
+#
+##docker图形管理dweebui pull@20240722
+#--platform=linux/arm64 lllllllillllllillll/dweebui:latest
+#
+#云笔记mindoc pull@20240723
+--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/mindoc-org/mindoc:v2.2-beta.1
