@@ -147,5 +147,8 @@
 ##docker图形管理dweebui pull@20240722
 #--platform=linux/arm64 lllllllillllllillll/dweebui:latest
 #
-#云笔记mindoc pull@20240723
---platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/mindoc-org/mindoc:v2.2-beta.1
+##云笔记mindoc 没有ARM64版本
+#--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/mindoc-org/mindoc:v2.2-beta.1
+
+#云笔记etherpad pull@20240723
+--platform=linux/arm64 etherpad/etherpad:2.1.1
