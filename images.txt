@@ -75,7 +75,7 @@
 #--platform=linux/arm64 cloudnas/clouddrive2:0.7.7
 #
 ##Alist
---platform=linux/arm64 xhofe/alist:v3.36.0
+#--platform=linux/arm64 xhofe/alist:v3.36.0
 #
 ##Alist main pull@20240714
 #--platform=linux/arm64 xhofe/alist:main
@@ -135,7 +135,7 @@
 ##photoview相片管理 pull@20240721
 #--platform=linux/arm64 viktorstrate/photoview:sha-0345bc1
 #
-##私有云文件管理 pull@20240721
+##私有云文件管理 没有ARM64版本
 #--platform=linux/arm64 ghcr.io/spacedriveapp/spacedrive/server:latest
 #
 ##照片管理 pull@20240721
