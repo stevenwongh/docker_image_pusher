@@ -155,6 +155,9 @@
 #
 ##portainer容器图形化管理 pull@20240723
 #--platform=linux/arm64 portainer/portainer-ce:linux-arm64-2.20.3
+#
+##SSL证书自动更新续期 pull@20240726
+#--platform=linux/arm64 linuxserver/swag:2.11.0
 
 #SSL证书自动更新续期 pull@20240726
---platform=linux/arm64 linuxserver/swag:2.11.0
+--platform=linux/arm64  pihole/pihole:2024.07.0
