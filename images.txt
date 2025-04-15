@@ -27,7 +27,7 @@
 #--platform=linux/arm64 hslr/sun-panel:1.4.0
 #
 ##smartDNS
---platform=linux/arm64 pymumu/smartdns:latest
+#--platform=linux/arm64 pymumu/smartdns:latest
 #
 ##sing-box web ui
 #--platform=linux/arm64 alireza7/s-ui:1.0.0
@@ -160,4 +160,4 @@
 #--platform=linux/arm64 linuxserver/swag:2.11.0
 
 #SSL证书自动更新续期 pull@20240726
---platform=linux/arm64  pihole/pihole:2024.07.0
+#--platform=linux/arm64  pihole/pihole:2024.07.0
