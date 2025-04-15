@@ -27,7 +27,7 @@
 #--platform=linux/arm64 hslr/sun-panel:1.4.0
 #
 ##smartDNS
-#--platform=linux/arm64 pymumu/smartdns:latest
+--platform=linux/arm64 pymumu/smartdns:latest
 #
 ##sing-box web ui
 #--platform=linux/arm64 alireza7/s-ui:1.0.0
